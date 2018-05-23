@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Mavan Test">
+	<test name="Exercise">
+		<classes>
+			<class name="com.project.MavenExample">
+				<methods>
+					<include name="TestNew"/>
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+</suite>
